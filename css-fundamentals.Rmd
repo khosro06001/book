@@ -17,7 +17,7 @@ By separating content (the HTML) from its appearance (the CSS), you get a number
 
 - The same content can easily be presented in different ways (like in the CSS Zen Garden). In web development, you could allow the user to choose different "themes" for a site, or you could change the formatting for different audiences (e.g., larger text for vision-impaired users, more compact text for mobile users, or different styles for cultures with different aesthetic sensibilities).
 
-- You can have several HTML pages to all share the same CSS stylesheet, allowing you to change the look of an entire web site by only editing one file. This is an application of the [Don't Repeat Yourself (DRY) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+- You can have several HTML pages  share the same CSS stylesheet, allowing you to change the look of an entire web site by only editing one file. This is an application of the [Don't Repeat Yourself (DRY) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 - You can also dynamically adjust the look of your page by applying new style rules to elements in response to user interaction (clicking, hovering, scrolling, etc.), without changing the content.
 
@@ -130,7 +130,7 @@ Read the documentation for an individual property to determine what options are 
 Selectors are used to "select" which HTML elements the css rule should apply to. As with properties, there are [many different kinds of selectors](http://www.w3schools.com/cssref/css_selectors.asp) (and see the following chapter), but there are three that are most common:
 
 #### Element Selector {-}
-The most basic selector, the **element selector** selects elements by their element (tag) name. For example, the below rule will apply to the all `<p>` elements, regardless of where they appear on the page:
+The most basic selector, the **element selector** selects elements by their element (tag) name. For example, the below rule will apply to all `<p>` elements, regardless of where they appear on the page:
 
 ```css
 p {
