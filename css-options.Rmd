@@ -394,7 +394,7 @@ Note that a shorthand property is interpreted as writing out all of the rules it
 ```css
 body {
     background-color: gold;
-    background: mediumpurple; /* later property override previous ones */
+    background: mediumpurple; /* later property overrides previous ones */
                               /* page will have a purple background */
 }
 ```
