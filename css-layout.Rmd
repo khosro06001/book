@@ -161,7 +161,7 @@ However, it is possible to position elements outside of the normal flow by speci
 Note, in order to get `position:absolute;` to work _"as expected"_, you'll need to specify that the _parent element_ is `position:relative;`. See [this post](https://css-tricks.com/absolute-positioning-inside-relative-positioning/) for more information.
 
 
-As an example, giving an element a **`position:fixed`** property will specify a "fixed" position of the element _relative to the browser window_. It will no move no matter where it appears in the HTML or where the browser scrolls. See [this Code Pen](http://codepen.io/joelross/pen/NRdzLZ?editors=1100#0) for an example.
+As an example, giving an element a **`position:fixed`** property will specify a "fixed" position of the element _relative to the browser window_. It will not move no matter where it appears in the HTML or where the browser scrolls. See [this Code Pen](http://codepen.io/joelross/pen/NRdzLZ?editors=1100#0) for an example.
 
 - In order to specify the location for a **`fixed`** element, use the `top`, `left`, `bottom`, and/or `right` properties to specify distance from the appropriate edge of the browser window:
 
