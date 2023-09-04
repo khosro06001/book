@@ -146,7 +146,7 @@ Note that all you have done is add a class to the HTML, exactly like you would f
 
 While it would be entirely possible for you to write such a rule yourself, Bootstrap provides these classes as "built-in", so you can focus on the semantics of the content rather than the CSS.
 
-(You might notice that the `bootstrap.css` file gives a lot of properties the `!important` flag. This is used to override other rules no matter how specific, allowing the Bootstrap rule to take effect no matter what. If you find yourself wanting to override this rule&mdash;e.g., you didn't want the text to be centered&mdash;don't try to write one that is more specific by using the `!important` flag yourself. Instead, _just remove the Bootstrap class_. If you don't want the text to be centered, don't give it the `text-centered` class! Don't include Bootstap classes if you don't want their effects, and _never_ use the `!important` flag).
+(You might notice that the `bootstrap.css` file gives a lot of properties the `!important` flag. This is used to override other rules no matter how specific, allowing the Bootstrap rule to take effect no matter what. If you find yourself wanting to override this rule&mdash;e.g., you didn't want the text to be centered&mdash;don't try to write one that is more specific by using the `!important` flag yourself. Instead, _just remove the Bootstrap class_. If you don't want the text to be centered, don't give it the `text-centered` class! Don't include Bootstrap classes if you don't want their effects, and _never_ use the `!important` flag).
 
 
 Many elements need to be given an additional utility class to indicate that they should use Bootstrap styling. For example, in order to give a `<button>` a Bootstrap style, it needs to have the class `btn`. This allows you to utilize Bootstrap's styling, but to not be forced to "override" that look and feel if you want to do something different.
@@ -313,7 +313,7 @@ However, with most Bootstrap components, you don't actually need to write any Ja
 
 - A [data attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes) is an normal HTML attribute that begins with the text `data-` (e.g., `data-thingamabob` or `data-my-attribute`). The HTML specification explicitly says that attributes that begin with `data-` are legal but not part of the standard, thus enabling them to be used for storing app-specific information. They effectively act as custom "variables" for elements that do not violate the HTML standard.
 
-For example, consider the below code from Bootstap's documentation for defining a [modal](https://getbootstrap.com/docs/5.2/components/modal/) and a button to open it:
+For example, consider the below code from Bootstrap's documentation for defining a [modal](https://getbootstrap.com/docs/5.2/components/modal/) and a button to open it:
 
 ```html
 <!-- note that the `id` attribute is set to "exampleModal" -->
