@@ -1,5 +1,5 @@
 # CSS Frameworks
-The previous chapters have covered how to use CSS to make your page both stylish and responsive. While it is certain possible to implement an entire site by creating your own CSS rules, that can quickly get tedious: often you'd like a page to have a "standard" set of rules (because the browser's style-less appearance) and then customize those rules to your liking.
+The previous chapters have covered how to use CSS to make your page both stylish and responsive. While it is certainly possible to implement an entire site by creating your own CSS rules, that can quickly get tedious: often you'd like a page to have a "standard" set of rules (because the browser's style-less appearance) and then customize those rules to your liking.
 
 For this reason, most professional web developers utilize an existing **CSS Framework** instead. A CSS Framework is a stylesheet (a `.css` file!) that contains a large list of pre-defined rules that you can apply to your page. CSS frameworks provide a number of benefits:
 
