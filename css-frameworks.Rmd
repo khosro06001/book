@@ -186,7 +186,7 @@ This allows you to keep the _semantic meaning_ of the HTML even if the styling c
 <div class="p-3 pt-1 mx-2 mb-2">An element with padding and spacing</div>
 ```
 
-This element has the `p-3` class, which gives it "3 spacers" worth of **p**adding on all sides. But `pt-1` causes it to only have 1 spacer worth of **p**adding on the **t**op. The `mx-2` class gives it 2 spacers of **m**argin on the __x__ axis (th left and right), and the `mb-2` class gives it 2 spacers of margin on the **b**ottom.
+This element has the `p-3` class, which gives it "3 spacers" worth of **p**adding on all sides. But `pt-1` causes it to only have 1 spacer worth of **p**adding on the **t**op. The `mx-2` class gives it 2 spacers of **m**argin on the __x__ axis (left and right), and the `mb-2` class gives it 2 spacers of margin on the **b**ottom.
 
 Bootstrap is filled with utility classes, both for generic styling (e.g., [borders](https://getbootstrap.com/docs/5.2/utilities/borders/) or [position](https://getbootstrap.com/docs/5.2/utilities/position/)), and for specific types of content (e.g., [lists](https://getbootstrap.com/docs/5.2/content/typography/#lists), [tables](https://getbootstrap.com/docs/5.2/content/tables/), [forms](https://getbootstrap.com/docs/5.2/forms/overview/)). It even provides classes for specifying and managng [flexboxes](https://getbootstrap.com/docs/5.2/utilities/flex/). Explore the documentation and examples for details on how to style particular elements and achieve specific effects.
 
