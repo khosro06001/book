@@ -348,7 +348,7 @@ There is a lot to unpack in this code, including styling classes and ARIA attrib
 
 <p class="alert alert-info">The best way to understand these components is to start from the examples in the documentation, and then consider each element and attribute one at a time. Read the documentation!</p>
 
-<p class="alert alert-warning">The JavaScript included in these CSS frameworks allows you to easily add interactive features, but **they do not mix well with more advanced JavaScript frameworks like React.** To work with React, you'd need to switch instead to a library such as [react-bootstrap](https://react-bootstrap.github.io/), which uses the Bootstrap CSS stylesheet, but re-implement the JavaScript portions to fit into the React framework.</p>
+<p class="alert alert-warning">The JavaScript included in these CSS frameworks allows you to easily add interactive features, but **they do not mix well with more advanced JavaScript frameworks like React.** To work with React, you'd need to switch instead to a library such as [react-bootstrap](https://react-bootstrap.github.io/), which uses the Bootstrap CSS stylesheet, but re-implements the JavaScript portions to fit into the React framework.</p>
 
 ## Resources {-}
 <div class="list-condensed">
